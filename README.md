@@ -1,5 +1,7 @@
 i have no idea what im doing btw
 
+![Screenshot of Discord ping](discordping.png)
+
 This script was written to ping myself or other users on Discord for specific Bozja skirmishes as they spawn. It periodically takes a screenshot of a region of my screen (currently, starting from 0,0 to 500, 400) where my map is placed, and then loops through all images in the "needles" folder to try to locate them on the map.
 
 **REQUIRES Python 3.6 <= x <= 3.8. One of the libraries (pyautogui I think?) does not like the latest Python 3.9**
